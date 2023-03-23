@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+.avatar {
+    width: 150px;
+    border-radius: 10%;
+}
+
+#hero {
+    color: blue;
+}
+
+body {
+    color: black;
+    background-color: #F5F5F5;
+    font-family: 'Opens Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14;
+    line-height: normal;
+}
+
+h1, h2, h3 {
+    color:black;
+    font-family: 'Roboto', serif;
+    font-size: 16;
+    line-height: normal;
+}
+
+a {
+    color: cornflowerblue;
+    text-decoration:underline;
+}
+
+a:hover {
+    color: #0b5394;
+    text-decoration: underline;
+    transition: color 0.3s ease-in-out;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card {
+    background-color: #f8f9fa; /* Cor de fundo */
+    border: 1px solid #dee2e6; /* Borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    margin-bottom: 20px; /* Espaçamento entre os cards */
+  }
+
+img {
+    border-radius: 30%;
+    width: 120px;
+  }
+  
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+    list-style: none;
+    padding-left: 0px;
+  }
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+li {
+    display: inline-block;
+    margin: 0 3px;
+  }
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  
+@media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  
+@media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
